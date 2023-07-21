@@ -12,9 +12,9 @@ class Post extends Model
 
     protected $fillable=['title','description','user_id','is_active','is_publish','numbers','deleted_at'];
 
-    public function user(){
-        return $this->belongsTo(User::class);
-    }
+    // public function user(){
+    //     return $this->belongsTo(User::class);
+    // }
     // public function commnent(){
     //     return $this->hasManyThrough(Post::class);
     // }

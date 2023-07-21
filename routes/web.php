@@ -133,10 +133,12 @@ Route::get('queries/friginkey',function(){
     $user = User::first();
     $user->roles()->sync($role->id);
     // $user->roles()->sync(1);
-
-
 });
 
+// -----------------------------------------
+// laravel factories
+
+// -----------------------------------------
 
 // session by fassad
 // Route::get('sessionput',function(){
