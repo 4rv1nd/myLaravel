@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\Newpost\CreateRequest;
+use App\Http\Requests\Newpost\FileRequest;
+use App\Models\FileUpload;
 use App\Models\Post;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Session;
@@ -14,9 +16,8 @@ class NewPostController extends Controller
      */
     public function index()
     {
-        //
         // $post = Post::all();
-        $post = Post::withTrashed()->simplePaginate(5);
+        $post = Post::withTrashed()->simplePaginate(10);
         // $post = Post::onlyTrashed()->simplePaginate(5);
         // $post = Post::simplePaginate(5);
         // $post =[];
@@ -24,12 +25,33 @@ class NewPostController extends Controller
 
     }
 
+    public function fileup(Request $request)
+    {
+        return view('newpost.file');
+    }
+    public function filesave(FileRequest $request){
+        $name = $request->myfile->getClientOriginalName();
+        $path = public_path().'/assets/images/';
+        $request->myfile->move($path, $name);
+        FileUpload::insert(['image'=>$name]);
+        // $file = FileUpload::find(1);
+        return redirect('newposts/file/view');
+        // return view('newpost.file_view',['image'=>$name]);
+    }
+    public function fileview(){
+        $files = FileUpload::all();
+        // $files->each(function($file){
+        //     print_r($file->image);
+        //     echo "<br>";
+        // });
+        return view('newpost.file_view',['images'=>$files]);
+    }
+
     /**
      * Show the form for creating a new resource.
      */
     public function create()
     {
-        //
         // $is_mesage = $request->session()->has('msg');
         return view('newpost.form');
     }
@@ -82,7 +104,6 @@ class NewPostController extends Controller
      */
     public function show(string $id)
     {
-        //
         $post = Post::find($id);
         return view('newpost.show',['post'=>$post]);
     }

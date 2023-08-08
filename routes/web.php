@@ -23,7 +23,8 @@ use Illuminate\Support\Facades\Session;
 |
 */
 Route::get('/', function () {
-    return view('welcome');
+    dd("A");
+    // return view('welcome');
 });
 Route::get('/clear', function () {
     Artisan::call('cache:clear');
@@ -99,6 +100,9 @@ Route::get('/posts/delete',[PostController::class,'destroy']);
 
 // everything in one controller
 Route::resource('newposts',NewPostController::class);
+Route::get('newposts/file/upload',[NewPostController::class,'fileup'])->name('newposts.fileup');
+Route::post('newposts/file/save',[NewPostController::class,'filesave'])->name('newposts.filesave');
+Route::get('newposts/file/view',[NewPostController::class,'fileview'])->name('newposts.fileview');
 Route::get('newposts/active/{id}',[NewPostController::class,'active'])->name('newposts.active');
 Route::get('newposts/publish/{id}',[NewPostController::class,'publish'])->name('newposts.publish');
 Route::get('newposts/softdelete/{id}',[NewPostController::class,'softdelete'])->name('newposts.softdelete');

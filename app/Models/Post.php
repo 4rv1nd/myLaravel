@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use Illuminate\Contracts\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
@@ -36,7 +37,12 @@ class Post extends Model
     //     );
     // }
 
-    protected $casts = [
-        'description'=>'encrypted'
-    ];
+    protected $casts = ['description'=>'encrypted'];
+
+    // for global scoping (if you want to get only published post for all queries without typing)
+    // public static function booted(){
+    //     static::addGlobalScope('active',function(Builder $builder){
+    //         $builder->where('is_publish',1);
+    //     });
+    // }
 }
