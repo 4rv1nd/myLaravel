@@ -28,8 +28,6 @@ return [
     |
     */
 
-
-    // also run a command  'php artisan storage link'
     'disks' => [
 
         'local' => [

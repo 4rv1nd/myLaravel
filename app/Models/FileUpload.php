@@ -9,10 +9,11 @@ use Illuminate\Database\Eloquent\Model;
 class FileUpload extends Model
 {
     use HasFactory;
-    // public $path = asset('assets/images/'.$image);
-    // public $path = public_path('assets/images/'.$image);
-    public $path = 'assets/images/';
+    // public $path = 'assets/images/';
+    public $path = 'storage/assets/images/';
     protected $fillable=['image'];
+    // protected $fillable=['image','created_at','updated_at'];
+    // public $timestamps = true;    
     protected function image(): Attribute {
         return Attribute::make(
             get: fn ($value) => $this->path.$value

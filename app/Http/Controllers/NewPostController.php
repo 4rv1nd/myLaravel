@@ -8,6 +8,7 @@ use App\Models\FileUpload;
 use App\Models\Post;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Session;
+use Illuminate\Support\Facades\Storage;
 
 class NewPostController extends Controller
 {
@@ -30,13 +31,21 @@ class NewPostController extends Controller
         return view('newpost.file');
     }
     public function filesave(FileRequest $request){
-        $name = $request->myfile->getClientOriginalName();
-        $path = public_path().'/assets/images/';
-        $request->myfile->move($path, $name);
-        FileUpload::insert(['image'=>$name]);
-        // $file = FileUpload::find(1);
+        
+        //1st method
+        // $name = $request->myfile->getClientOriginalName();
+        // $path = public_path().'/assets/images/';
+        // $request->myfile->move($path, $name);
+        // FileUpload::insert(['image'=>]);
+        
+        //2nd method
+        // also run a command  'php artisan storage:link'
+        $filename = Storage::disk('public')->put('/assets/images/', $request->myfile);
+        $fname = basename($filename);
+        FileUpload::insert(['image'=>$fname]);
+
+
         return redirect('newposts/file/view');
-        // return view('newpost.file_view',['image'=>$name]);
     }
     public function fileview(){
         $files = FileUpload::all();
