@@ -9,6 +9,9 @@ use App\Models\Post;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Str;
+
+use function PHPUnit\Framework\fileExists;
 
 class NewPostController extends Controller
 {
@@ -43,17 +46,20 @@ class NewPostController extends Controller
         $filename = Storage::disk('public')->put('/assets/images/', $request->myfile);
         $fname = basename($filename);
         FileUpload::insert(['image'=>$fname]);
-
-
-        return redirect('newposts/file/view');
+        // return redirect('newposts/file/view');
+        return back();
     }
     public function fileview(){
         $files = FileUpload::all();
-        // $files->each(function($file){
-        //     print_r($file->image);
-        //     echo "<br>";
-        // });
         return view('newpost.file_view',['images'=>$files]);
+    }
+    public function filedelete(Request $request,$id){
+        $files = FileUpload::find($id);
+        if(fileExists($files->image)){
+            unlink($files->image);
+            $files->delete();
+        }
+        return back();
     }
 
     /**
@@ -94,8 +100,12 @@ class NewPostController extends Controller
         // if table column and client form variables are same
         // Post::create($request->all());
 
+        // use Illuminate\Support\Str;
+        $slug = Str::slug($request->title);
+
         Post::create([
             'title'=>$request->title,
+            'slug'=>$slug,
             'description'=>$request->description,
             'user_id'=>1,
             'numbers'=>$request->numbers,
@@ -111,9 +121,16 @@ class NewPostController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(string $id)
-    {
+    public function show(string $id){
         $post = Post::find($id);
+        return view('newpost.show',['post'=>$post]);
+    }
+
+    public function sluggg(Post $post){
+        // $post->each(function($file){
+        //     print_r($file);
+        //     echo "<br>";
+        // });
         return view('newpost.show',['post'=>$post]);
     }
 

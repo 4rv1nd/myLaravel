@@ -31,8 +31,8 @@ Route::get('/clear', function () {
     Artisan::call('route:cache');
     Artisan::call('config:cache');
     Artisan::call('view:clear');
-    echo "cache clerared";
-});
+    return back();
+})->name('clear');
 
 
 Route::get('/docs/users', function () {
@@ -102,10 +102,14 @@ Route::get('/posts/delete',[PostController::class,'destroy']);
 Route::resource('newposts',NewPostController::class);
 Route::get('newposts/file/upload',[NewPostController::class,'fileup'])->name('newposts.fileup');
 Route::post('newposts/file/save',[NewPostController::class,'filesave'])->name('newposts.filesave');
+Route::get('newposts/file/delete/{id}',[NewPostController::class,'filedelete'])->name('newposts.filedelete');
 Route::get('newposts/file/view',[NewPostController::class,'fileview'])->name('newposts.fileview');
 Route::get('newposts/active/{id}',[NewPostController::class,'active'])->name('newposts.active');
 Route::get('newposts/publish/{id}',[NewPostController::class,'publish'])->name('newposts.publish');
 Route::get('newposts/softdelete/{id}',[NewPostController::class,'softdelete'])->name('newposts.softdelete');
+
+// searching via slug
+Route::get('newposts/slug/{post:slug}',[NewPostController::class,'sluggg'])->name('newposts.slug')->withTrashed();
 
 Route::get('get/post/queries',[PostController::class,'getPost'])->name('get.post');
 

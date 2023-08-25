@@ -66,14 +66,20 @@
         <nav id="sidebarMenu" class="collapse d-lg-block sidebar collapse bg-white">
             <div class="position-sticky">
                 <div class="list-group list-group-flush mx-3 mt-4">
-                    <a href="#" class="list-group-item list-group-item-action py-2 ripple active">
+                    <!-- <a href="#" class="list-group-item list-group-item-action py-2 ripple active">
                         <span>Sample active</span>
                     </a>
                     <a href="#" class="list-group-item list-group-item-action py-2 ripple" aria-current="true">
                         </i><span>Sample Inactive</span>
-                    </a>
+                    </a> -->
                     <a href="{{route('newposts.index')}}" class="newPostNav list-group-item list-group-item-action py-2 ripple">
                         <span>New Post</span>
+                    </a>
+                    <a href="{{route('newposts.fileup')}}" class="newPostNav list-group-item list-group-item-action py-2 ripple">
+                        <span>File upload</span>
+                    </a>
+                    <a href="{{route('newposts.fileview')}}" class="newPostNav list-group-item list-group-item-action py-2 ripple">
+                        <span>File View</span>
                     </a>
                 </div>
             </div>
@@ -102,6 +108,12 @@
                 <!-- Right links -->
                 <ul class="navbar-nav ms-auto d-flex flex-row">
                     <!-- Notification dropdown -->
+
+                    <li class="nav-item dropdown">
+                        <a href="{{route('clear')}}" class="btn btn-info">
+                            <span>Clear catche</span>
+                        </a>
+                    </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link me-3 me-lg-0 dropdown-toggle hidden-arrow" href="#" id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
                             <i class="fas fa-bell"></i>

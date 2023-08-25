@@ -47,6 +47,7 @@
                 <td class="d-flex gap-2">
                   <a href="{{route('newposts.show',$item['id'])}}" class="btn btn-info">Show</a>
                   <a href="{{route('newposts.edit',$item['id'])}}" class="btn btn-warning">edit</a>
+                  <a href="{{route('newposts.slug',$item['slug'])}}" class="btn btn-warning">slug show</a>
                   <form action="{{route('newposts.destroy',$item['id'])}}" method="post">
                     @csrf
                     @method('delete')

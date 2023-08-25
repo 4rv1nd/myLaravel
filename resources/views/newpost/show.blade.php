@@ -34,6 +34,10 @@
       <label for="description">Description</label>
       <input type="text" id="description" class="form-control" disabled value="{{$post['description']}}">
     </div>
+    <div class="col-12 form-group">
+      <label for="slug">Slug</label>
+      <input type="text" id="slug" class="form-control" disabled value="{{$post['slug']}}">
+    </div>
   @else
     <div class="col-12 form-control">No data Found</div>
   @endif

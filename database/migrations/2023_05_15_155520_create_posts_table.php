@@ -21,6 +21,8 @@ return new class extends Migration
             $table->text('description');
             $table->bigInteger('numbers');
             $table->softDeletes('deleted_at');
+
+            $table->string('slug');
             // $table->softDeletes('deleted_at')->after('numbers');
 
             // remember always set frist perameter in down method
