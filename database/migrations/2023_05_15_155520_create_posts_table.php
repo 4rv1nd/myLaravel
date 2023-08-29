@@ -23,6 +23,7 @@ return new class extends Migration
             $table->softDeletes('deleted_at');
 
             $table->string('slug');
+            // $table->string('slug')->unique();
             // $table->softDeletes('deleted_at')->after('numbers');
 
             // remember always set frist perameter in down method

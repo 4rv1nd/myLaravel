@@ -18,7 +18,8 @@
 
     @media (min-width: 991.98px) {
         main {
-            padding-left: 240px;
+            /* padding-left: 240px; */
+            padding-left: 78px;
         }
     }
 
@@ -31,10 +32,9 @@
         padding: 58px 0 0;
         /* Height of navbar */
         box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
-        width: 240px;
+        width: 150px;
         z-index: 600;
     }
-
     @media (max-width: 991.98px) {
         .sidebar {
             width: 100%;

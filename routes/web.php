@@ -108,8 +108,13 @@ Route::get('newposts/active/{id}',[NewPostController::class,'active'])->name('ne
 Route::get('newposts/publish/{id}',[NewPostController::class,'publish'])->name('newposts.publish');
 Route::get('newposts/softdelete/{id}',[NewPostController::class,'softdelete'])->name('newposts.softdelete');
 
-// searching via slug
-Route::get('newposts/slug/{post:slug}',[NewPostController::class,'sluggg'])->name('newposts.slug')->withTrashed();
+//slug
+Route::get('newposts/{post:slug}/slug',[NewPostController::class,'sluggg'])->name('newposts.slug')->withTrashed();
+Route::get('newposts/{post:slug}/slugedit',[NewPostController::class,'slugedit'])->name('newposts.slugedit');
+Route::post('newposts/{post:slug}/slugupdate',[NewPostController::class,'slugupdate'])->name('newposts.slugupdate');
+Route::get('newposts/{post:slug}/slugdelete',[NewPostController::class,'slugdelete'])->name('newposts.slugdelete');
+Route::get('newposts/{post:slug}/slugrecover',[NewPostController::class,'slugrecover'])->name('newposts.slugrecover');
+
 
 Route::get('get/post/queries',[PostController::class,'getPost'])->name('get.post');
 

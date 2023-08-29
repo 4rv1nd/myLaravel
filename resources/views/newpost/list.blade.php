@@ -39,25 +39,34 @@
                 <td>{{$item['title']}}</td>
                 <td>{{ Str::limit($item['description'],28)}}</td>
                 <td>
-                  <a href="{{route('newposts.active',$item['id'])}}" class="btn btn-{{$item['is_active']?'success':'danger'}}">Click to {{$item['is_active']?'inactive':'active'}}</a>
+                  <a href="{{route('newposts.active',$item['id'])}}" class="btn btn-{{$item['is_active']?'success':'danger'}}">{{$item['is_active']?'Yes':'No'}}</a>
                 </td>
                 <td>
-                  <a href="{{route('newposts.publish',$item['id'])}}" class="btn btn-{{$item['is_publish']?'success':'danger'}}">Click to {{$item['is_publish']?'inactive':'active'}}</a>
+                  <a href="{{route('newposts.publish',$item['id'])}}" class="btn btn-{{$item['is_publish']?'success':'danger'}}">{{$item['is_publish']?'Yes':'No'}}</a>
                 </td>
-                <td class="d-flex gap-2">
-                  <a href="{{route('newposts.show',$item['id'])}}" class="btn btn-info">Show</a>
-                  <a href="{{route('newposts.edit',$item['id'])}}" class="btn btn-warning">edit</a>
-                  <a href="{{route('newposts.slug',$item['slug'])}}" class="btn btn-warning">slug show</a>
-                  <form action="{{route('newposts.destroy',$item['id'])}}" method="post">
-                    @csrf
-                    @method('delete')
-                    <button class="btn btn-danger" type="submit">Delete</button>
-                    <!-- $item['deleted_at']!=null -->
-                    <!-- $item->trashed() -->
-                    @if($item->trashed())
-                      <a href="{{route('newposts.softdelete',$item['id'])}}" class="btn btn-warning">recover</a>
-                    @endif
-                  </form>
+                <td>
+                  <div class="row">
+                    <div class="col-6 d-flex gap-1">
+                      <a href="{{route('newposts.show',$item['id'])}}" class="btn btn-info btn-sm">Show</a>
+                      <a href="{{route('newposts.edit',$item['id'])}}" class="btn btn-warning btn-sm">edit</a>
+                      <form action="{{route('newposts.destroy',$item['id'])}}" method="post">
+                        @csrf
+                        @method('delete')
+                        <button class="btn btn-danger btn-sm" type="submit">Delete</button>
+                      </form>
+                      @if($item->trashed())
+                        <a href="{{route('newposts.softdelete',$item['id'])}}" class="btn btn-warning btn-sm">recover</a>
+                      @endif
+                    </div>
+                    <div class="col-6 d-flex gap-1">
+                      <a href="{{route('newposts.slug',$item['slug'])}}" class="btn btn-info btn-sm">slug show</a>
+                      <a href="{{route('newposts.slugedit',$item['slug'])}}" class="btn btn-warning btn-sm">slug edit</a>
+                      <a href="{{route('newposts.slugdelete',$item['slug'])}}" class="btn btn-danger btn-sm">slug delete</a>
+                      @if($item->trashed())
+                        <a href="{{route('newposts.slugrecover',$item['slug'])}}" class="btn btn-warning btn-sm">recover</a>
+                      @endif
+                    </div>
+                  </div>
                 </td>
             </tr>
         @endforeach

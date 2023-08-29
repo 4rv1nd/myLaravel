@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\Newpost\CreateRequest;
 use App\Http\Requests\Newpost\FileRequest;
+use App\Http\Requests\Newpost\UpdateRequest;
 use App\Models\FileUpload;
 use App\Models\Post;
 use Illuminate\Http\Request;
@@ -125,7 +126,9 @@ class NewPostController extends Controller
         $post = Post::find($id);
         return view('newpost.show',['post'=>$post]);
     }
-
+    /**
+     * Show the form for editing the specified resource.
+     */
     public function sluggg(Post $post){
         // $post->each(function($file){
         //     print_r($file);
@@ -133,22 +136,54 @@ class NewPostController extends Controller
         // });
         return view('newpost.show',['post'=>$post]);
     }
-
-    /**
-     * Show the form for editing the specified resource.
-     */
-    public function edit(string $id)
-    {
-        //
+    public function edit(string $id){
         $post = Post::find($id);
         return view('newpost.edit',['post'=>$post]);
+    }
+
+    public function slugedit(Post $post){
+        return view('newpost.slugedit',compact('post'));
+    }
+    public function slugupdate(UpdateRequest $request, Post $post){
+        $slug = Str::slug($request->title);
+        $up_data = [
+            'title'=>$request->title,
+            'slug'=>$slug,
+            'description'=>$request->description,
+            'numbers'=>$request->numbers,
+            'is_publish'=>$request->is_publish,
+            'is_active'=>$request->is_active
+        ];        
+        if($post->update($up_data)){
+            $request->session()->flash('msg',"Updated");
+            return to_route('newposts.index');
+        }
+        $request->session()->flash('msg',"Not updated");
+        return back();
+    }
+    public function slugdelete(Request $request, Post $post){
+        if($post->delete()){
+            $request->session()->flash('msg',"Slug deleted");
+        }
+        else{
+            $request->session()->flash('msg',"Slug not deleted");
+        }
+        return back();
+    }
+    public function slugrecover(Request $request, Post $post){
+        if($post->update(['deleted_at'=>null])){
+            $request->session()->flash('msg',"Slug restored");
+        }
+        else{
+            $request->session()->flash('msg',"Slug not restored");
+        }
+        return back();
     }
 
     /**
      * Update the specified resource in storage.
      */
-    public function update(CreateRequest $request, string $id)
-    {
+    public function update(CreateRequest $request, string $id){
         //
         // return $request->all();
 

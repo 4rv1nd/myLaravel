@@ -20,24 +20,17 @@
     <div class="form-group">
         <label for="title">Title</label>
         <input type="text" class="form-control @error('title') is-invalid @enderror" id="title" aria-describedby="emailHelp" placeholder="Enter Title" name="title" value="{{old('title')}}">
-        @error('title')
-            <div class="invalid-feedback">{{ $message }}</div>
-        @enderror
+        @error('title')<div class="invalid-feedback">{{ $message }}</div>@enderror
     </div>
     <div class="form-group">
         <label for="desc">Desription</label>
         <textarea name="description" id="desc" class="form-control @error('description') is-invalid @enderror">{{old('description')}}</textarea>
-        @error('description')
-            <div class="invalid-feedback">{{ $message }}</div>
-        @enderror
-        <!-- <input type="text" class="form-control" id="title" aria-describedby="emailHelp" placeholder="Enter Title" name="desription"> -->
+        @error('description')<div class="invalid-feedback">{{ $message }}</div>@enderror
     </div>
     <div class="form-group">
         <label for="title">Numbers</label>
         <input type="number" class="form-control @error('numbers') is-invalid @enderror" id="title" aria-describedby="emailHelp" placeholder="Enter Numbers" name="numbers" value="{{old('numbers')}}">
-        @error('numbers')
-            <div class="invalid-feedback">{{ $message }}</div>
-        @enderror
+        @error('numbers')<div class="invalid-feedback">{{ $message }}</div>@enderror
     </div>
     <div class="form-group">
         <label for="title">Is Published</label>
@@ -46,9 +39,7 @@
             <option value="1" @selected(old('is_publish')==1)>Yes</option>
             <option value="0" @selected(old('is_publish')==0)>no</option> 
         </select>
-        @error('is_publish')
-            <div class="invalid-feedback">{{ $message }}</div>
-        @enderror
+        @error('is_publish')<div class="invalid-feedback">{{ $message }}</div>@enderror
     </div>
     <div class="form-group">
         <label for="title">Is Disable</label>
@@ -57,9 +48,7 @@
             <option value="1" @selected(old('is_active')==1)>Yes</option>
             <option value="0" @selected(old('is_active')==0)>no</option>
         </select>
-        @error('is_active')
-            <div class="invalid-feedback">{{ $message }}</div>
-        @enderror
+        @error('is_active')<div class="invalid-feedback">{{ $message }}</div>@enderror
     </div>
     @csrf
     <button type="submit" class="mt-2 btn btn-primary">Submit</button>
