@@ -104,15 +104,26 @@ Route::get('/posts/delete',[PostController::class,'destroy']);
 
 // everything in one controller
 Route::resource('newposts',NewPostController::class);
-Route::get('newposts/file/upload',[NewPostController::class,'fileup'])->name('newposts.fileup');
-Route::post('newposts/file/save',[NewPostController::class,'filesave'])->name('newposts.filesave');
-Route::get('newposts/file/delete/{id}',[NewPostController::class,'filedelete'])->name('newposts.filedelete');
-Route::get('newposts/file/view',[NewPostController::class,'fileview'])->name('newposts.fileview');
-Route::get('newposts/active/{id}',[NewPostController::class,'active'])->name('newposts.active');
-Route::get('newposts/publish/{id}',[NewPostController::class,'publish'])->name('newposts.publish');
-Route::get('newposts/softdelete/{id}',[NewPostController::class,'softdelete'])->name('newposts.softdelete');
 
-// Route::controller(NewPostController::class)
+// // old routes
+// Route::get('newposts/file/upload',[NewPostController::class,'fileup'])->name('newposts.fileup');
+// Route::post('newposts/file/save',[NewPostController::class,'filesave'])->name('newposts.filesave');
+// Route::get('newposts/file/delete/{id}',[NewPostController::class,'filedelete'])->name('newposts.filedelete');
+// Route::get('newposts/file/view',[NewPostController::class,'fileview'])->name('newposts.fileview');
+// Route::get('newposts/active/{id}',[NewPostController::class,'active'])->name('newposts.active');
+// Route::get('newposts/publish/{id}',[NewPostController::class,'publish'])->name('newposts.publish');
+// Route::get('newposts/softdelete/{id}',[NewPostController::class,'softdelete'])->name('newposts.softdelete');
+
+// new routes
+Route::controller(NewPostController::class)->group(function(){
+    Route::get('newposts/file/upload','fileup')->name('newposts.fileup');
+    Route::post('newposts/file/save','filesave')->name('newposts.filesave');
+    Route::get('newposts/file/delete/{id}','filedelete')->name('newposts.filedelete');
+    Route::get('newposts/file/view','fileview')->name('newposts.fileview');
+    Route::get('newposts/active/{id}','active')->name('newposts.active');
+    Route::get('newposts/publish/{id}','publish')->name('newposts.publish');
+    Route::get('newposts/softdelete/{id}','softdelete')->name('newposts.softdelete');
+});
 
 //slug
 Route::get('newposts/{post:slug}/slug',[NewPostController::class,'sluggg'])->name('newposts.slug')->withTrashed();
