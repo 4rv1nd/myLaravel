@@ -115,6 +115,11 @@ Route::post('newposts/{post:slug}/slugupdate',[NewPostController::class,'slugupd
 Route::get('newposts/{post:slug}/slugdelete',[NewPostController::class,'slugdelete'])->name('newposts.slugdelete');
 Route::get('newposts/{post:slug}/slugrecover',[NewPostController::class,'slugrecover'])->name('newposts.slugrecover');
 
+// errorrs
+// first excecute this command 'php artisan vendor:publish'
+// and now enter the no. of in which line have 'error' sentence
+Route::get('errors',[NewPostController::class,'errors'])->name('errors');
+
 
 Route::get('get/post/queries',[PostController::class,'getPost'])->name('get.post');
 

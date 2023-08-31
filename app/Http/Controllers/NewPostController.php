@@ -161,6 +161,19 @@ class NewPostController extends Controller
         $request->session()->flash('msg',"Not updated");
         return back();
     }
+    public function errors(){
+        // abort(401);
+        // abort(404);
+
+        // go to see the resource 403 blade file
+        // abort(403,'User is no able to perform this action');
+
+        // abort_if(6==6,'404','User is no able to perform this action');
+        // abort_unless(6==6,'404','User is no able to perform this action');
+
+
+        
+    }
     public function slugdelete(Request $request, Post $post){
         if($post->delete()){
             $request->session()->flash('msg',"Slug deleted");
