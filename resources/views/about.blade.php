@@ -12,9 +12,5 @@
     <x-notification type="alert" :message="$new_message" />
 
     <x-test data="this is another test description"/>
-
-    <x-example>
-        
-    </x-example>
 </body>
 </html>

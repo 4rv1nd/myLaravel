@@ -112,6 +112,8 @@ Route::get('newposts/active/{id}',[NewPostController::class,'active'])->name('ne
 Route::get('newposts/publish/{id}',[NewPostController::class,'publish'])->name('newposts.publish');
 Route::get('newposts/softdelete/{id}',[NewPostController::class,'softdelete'])->name('newposts.softdelete');
 
+// Route::controller(NewPostController::class)
+
 //slug
 Route::get('newposts/{post:slug}/slug',[NewPostController::class,'sluggg'])->name('newposts.slug')->withTrashed();
 Route::get('newposts/{post:slug}/slugedit',[NewPostController::class,'slugedit'])->name('newposts.slugedit');
