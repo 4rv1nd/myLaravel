@@ -22,18 +22,22 @@ use Illuminate\Support\Facades\Session;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-Route::get('/', function () {
-    dd("A");
-    // return view('welcome');
-});
 Route::get('/clear', function () {
-    Artisan::call('cache:clear');
-    Artisan::call('route:cache');
-    Artisan::call('config:cache');
-    Artisan::call('view:clear');
+    Artisan::call('optimize:clear');
+
+    // Artisan::call('cache:clear');
+    // Artisan::call('view:clear');
+    // Artisan::call('route:clear');
+
+    // Artisan::call('route:cache');
+    // Artisan::call('config:cache');
     return back();
 })->name('clear');
 
+Route::view('/','welcome');
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 Route::get('/docs/users', function () {
     return "User List";
@@ -119,6 +123,10 @@ Route::get('newposts/{post:slug}/slugrecover',[NewPostController::class,'slugrec
 // first excecute this command 'php artisan vendor:publish'
 // and now enter the no. of in which line have 'error' sentence
 Route::get('errors',[NewPostController::class,'errors'])->name('errors');
+
+// components
+Route::view('component-home','home');
+Route::view('component-about','about');
 
 
 Route::get('get/post/queries',[PostController::class,'getPost'])->name('get.post');

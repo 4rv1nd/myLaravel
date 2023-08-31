@@ -168,11 +168,8 @@ class NewPostController extends Controller
         // go to see the resource 403 blade file
         // abort(403,'User is no able to perform this action');
 
-        // abort_if(6==6,'404','User is no able to perform this action');
+        abort_if(6==6,'404','User is no able to perform this action');
         // abort_unless(6==6,'404','User is no able to perform this action');
-
-
-        
     }
     public function slugdelete(Request $request, Post $post){
         if($post->delete()){
