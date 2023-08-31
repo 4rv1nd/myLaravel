@@ -6,8 +6,11 @@
     <title>Document</title>
 </head>
 <body>
-    <?php $new_message = "Helloooooo"; ?>
     <x-alert title="Home page title"/>
+
+    <?php $new_message = "Helloooooo"; ?>
     <x-notification type="message" :message="$new_message" />
+
+    <x-test data="this is a test description"/>
 </body>
 </html>
