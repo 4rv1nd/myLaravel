@@ -1,0 +1,657 @@
+[17-Feb-2022 19:52:15 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/roaster/vendor/psr/log/src/LoggerInterface.php on line 30
+[17-Feb-2022 19:52:15 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[17-Feb-2022 19:56:26 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/roaster/vendor/psr/log/src/LoggerInterface.php on line 30
+[17-Feb-2022 19:56:26 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[17-Feb-2022 19:59:02 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/roaster/vendor/psr/log/src/LoggerInterface.php on line 30
+[17-Feb-2022 19:59:02 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[17-Feb-2022 19:59:24 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/roaster/vendor/psr/log/src/LoggerInterface.php on line 30
+[17-Feb-2022 19:59:24 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[17-Feb-2022 19:59:44 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/roaster/vendor/psr/log/src/LoggerInterface.php on line 30
+[17-Feb-2022 19:59:44 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[23-Feb-2022 15:23:03 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[23-Feb-2022 15:23:03 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[23-Feb-2022 15:53:51 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[23-Feb-2022 15:53:51 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[23-Feb-2022 18:43:36 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[23-Feb-2022 18:43:36 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[23-Feb-2022 18:44:00 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[23-Feb-2022 18:44:00 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[23-Feb-2022 18:44:04 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[23-Feb-2022 18:44:04 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[23-Feb-2022 18:44:25 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[23-Feb-2022 18:44:25 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[23-Feb-2022 18:50:13 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[23-Feb-2022 18:50:13 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[23-Feb-2022 18:59:46 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[23-Feb-2022 18:59:46 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[23-Feb-2022 19:54:37 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[23-Feb-2022 19:54:37 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[23-Feb-2022 20:57:56 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[23-Feb-2022 20:57:56 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[23-Feb-2022 21:36:33 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[23-Feb-2022 21:36:33 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[23-Feb-2022 21:37:15 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[23-Feb-2022 21:37:15 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[24-Feb-2022 00:06:19 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[24-Feb-2022 00:06:19 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[24-Feb-2022 00:06:23 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[24-Feb-2022 00:06:23 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[24-Feb-2022 00:06:58 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[24-Feb-2022 00:06:58 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[24-Feb-2022 04:19:52 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[24-Feb-2022 04:19:52 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[24-Feb-2022 05:07:58 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[24-Feb-2022 05:07:58 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[24-Feb-2022 05:50:03 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[24-Feb-2022 05:50:03 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[24-Feb-2022 12:05:34 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[24-Feb-2022 12:05:34 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[24-Feb-2022 12:08:11 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[24-Feb-2022 12:08:11 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[24-Feb-2022 12:48:06 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[24-Feb-2022 12:48:06 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[24-Feb-2022 12:48:55 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[24-Feb-2022 12:48:55 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[24-Feb-2022 13:28:25 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[24-Feb-2022 13:28:25 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[24-Feb-2022 13:28:45 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[24-Feb-2022 13:28:45 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[24-Feb-2022 13:55:50 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[24-Feb-2022 13:55:50 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[24-Feb-2022 13:59:01 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[24-Feb-2022 13:59:01 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[24-Feb-2022 13:59:06 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[24-Feb-2022 13:59:06 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[24-Feb-2022 14:35:14 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[24-Feb-2022 14:35:14 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[24-Feb-2022 16:15:30 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[24-Feb-2022 16:15:30 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[24-Feb-2022 16:15:50 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[24-Feb-2022 16:15:50 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[24-Feb-2022 16:15:54 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[24-Feb-2022 16:15:54 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[24-Feb-2022 19:40:45 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[24-Feb-2022 19:40:45 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[24-Feb-2022 19:46:12 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[24-Feb-2022 19:46:12 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[24-Feb-2022 19:46:13 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[24-Feb-2022 19:46:13 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[24-Feb-2022 19:46:13 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[24-Feb-2022 19:46:13 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[24-Feb-2022 19:46:14 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[24-Feb-2022 19:46:14 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[24-Feb-2022 19:46:15 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[24-Feb-2022 19:46:15 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[24-Feb-2022 19:46:15 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[24-Feb-2022 19:46:15 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[24-Feb-2022 22:00:59 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[24-Feb-2022 22:00:59 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[24-Feb-2022 22:02:12 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[24-Feb-2022 22:02:12 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[25-Feb-2022 00:42:53 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[25-Feb-2022 00:42:53 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[25-Feb-2022 00:48:38 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[25-Feb-2022 00:48:38 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[25-Feb-2022 02:36:53 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[25-Feb-2022 02:36:53 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[25-Feb-2022 03:09:54 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[25-Feb-2022 03:09:54 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[25-Feb-2022 04:04:52 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[25-Feb-2022 04:04:52 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[25-Feb-2022 06:15:02 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[25-Feb-2022 06:15:02 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[25-Feb-2022 06:59:24 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[25-Feb-2022 06:59:24 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[25-Feb-2022 08:34:37 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[25-Feb-2022 08:34:37 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[25-Feb-2022 09:03:06 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[25-Feb-2022 09:03:06 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[25-Feb-2022 11:39:33 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[25-Feb-2022 11:39:33 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[25-Feb-2022 12:03:08 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[25-Feb-2022 12:03:08 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[25-Feb-2022 12:25:44 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[25-Feb-2022 12:25:44 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[25-Feb-2022 16:25:46 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[25-Feb-2022 16:25:46 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[25-Feb-2022 17:13:35 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[25-Feb-2022 17:13:35 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[25-Feb-2022 17:13:52 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[25-Feb-2022 17:13:52 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[25-Feb-2022 17:14:01 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[25-Feb-2022 17:14:01 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[25-Feb-2022 17:14:26 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[25-Feb-2022 17:14:26 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[25-Feb-2022 17:14:31 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[25-Feb-2022 17:14:31 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[25-Feb-2022 17:35:42 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[25-Feb-2022 17:35:42 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[25-Feb-2022 18:18:57 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[25-Feb-2022 18:18:57 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[25-Feb-2022 18:44:47 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[25-Feb-2022 18:44:47 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[25-Feb-2022 18:45:32 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[25-Feb-2022 18:45:32 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[25-Feb-2022 18:56:21 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[25-Feb-2022 18:56:21 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[26-Feb-2022 01:21:35 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[26-Feb-2022 01:21:35 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[26-Feb-2022 01:21:42 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[26-Feb-2022 01:21:42 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[26-Feb-2022 01:21:48 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[26-Feb-2022 01:21:48 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[26-Feb-2022 01:22:26 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[26-Feb-2022 01:22:26 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[26-Feb-2022 01:22:33 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[26-Feb-2022 01:22:33 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[26-Feb-2022 01:22:38 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[26-Feb-2022 01:22:38 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[26-Feb-2022 01:22:44 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[26-Feb-2022 01:22:44 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[26-Feb-2022 01:22:50 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[26-Feb-2022 01:22:50 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[26-Feb-2022 01:22:56 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[26-Feb-2022 01:22:56 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[26-Feb-2022 01:23:02 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[26-Feb-2022 01:23:02 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[26-Feb-2022 01:23:08 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[26-Feb-2022 01:23:08 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[26-Feb-2022 01:23:13 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[26-Feb-2022 01:23:13 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[26-Feb-2022 01:23:19 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[26-Feb-2022 01:23:19 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[26-Feb-2022 01:25:24 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[26-Feb-2022 01:25:24 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[26-Feb-2022 01:25:29 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[26-Feb-2022 01:25:29 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[26-Feb-2022 01:25:35 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[26-Feb-2022 01:25:35 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[26-Feb-2022 01:25:43 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[26-Feb-2022 01:25:43 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[26-Feb-2022 01:25:48 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[26-Feb-2022 01:25:48 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[26-Feb-2022 01:25:54 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[26-Feb-2022 01:25:54 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[26-Feb-2022 01:25:59 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[26-Feb-2022 01:25:59 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[26-Feb-2022 01:26:05 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[26-Feb-2022 01:26:05 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[26-Feb-2022 01:26:11 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[26-Feb-2022 01:26:11 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[26-Feb-2022 01:26:19 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[26-Feb-2022 01:26:19 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[26-Feb-2022 01:26:24 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[26-Feb-2022 01:26:24 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[26-Feb-2022 01:26:30 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[26-Feb-2022 01:26:30 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[26-Feb-2022 01:26:37 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[26-Feb-2022 01:26:37 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[26-Feb-2022 01:26:43 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[26-Feb-2022 01:26:43 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[26-Feb-2022 01:26:48 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[26-Feb-2022 01:26:48 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[26-Feb-2022 01:26:54 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[26-Feb-2022 01:26:54 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[26-Feb-2022 01:27:00 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[26-Feb-2022 01:27:00 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[26-Feb-2022 01:27:06 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[26-Feb-2022 01:27:06 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[26-Feb-2022 03:12:28 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[26-Feb-2022 03:12:28 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[26-Feb-2022 03:52:53 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[26-Feb-2022 03:52:53 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[26-Feb-2022 06:48:55 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[26-Feb-2022 06:48:55 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[26-Feb-2022 06:48:58 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[26-Feb-2022 06:48:58 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[26-Feb-2022 07:36:33 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[26-Feb-2022 07:36:33 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[26-Feb-2022 09:41:25 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[26-Feb-2022 09:41:25 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[26-Feb-2022 10:26:39 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[26-Feb-2022 10:26:39 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[26-Feb-2022 10:59:37 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[26-Feb-2022 10:59:37 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[26-Feb-2022 10:59:39 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[26-Feb-2022 10:59:39 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[26-Feb-2022 10:59:40 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[26-Feb-2022 10:59:40 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[26-Feb-2022 10:59:45 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[26-Feb-2022 10:59:45 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[26-Feb-2022 11:00:01 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[26-Feb-2022 11:00:01 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[26-Feb-2022 11:00:03 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[26-Feb-2022 11:00:03 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[26-Feb-2022 13:36:09 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[26-Feb-2022 13:36:09 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[26-Feb-2022 14:49:29 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[26-Feb-2022 14:49:29 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[26-Feb-2022 16:30:22 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[26-Feb-2022 16:30:22 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[26-Feb-2022 17:39:37 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[26-Feb-2022 17:39:37 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[26-Feb-2022 17:39:46 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[26-Feb-2022 17:39:46 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[26-Feb-2022 17:39:56 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[26-Feb-2022 17:39:56 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[26-Feb-2022 18:46:30 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[26-Feb-2022 18:46:30 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[26-Feb-2022 19:03:06 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[26-Feb-2022 19:03:06 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[26-Feb-2022 19:03:22 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[26-Feb-2022 19:03:22 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[26-Feb-2022 19:03:27 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[26-Feb-2022 19:03:27 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[26-Feb-2022 19:03:28 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[26-Feb-2022 19:03:28 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[26-Feb-2022 19:03:33 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[26-Feb-2022 19:03:33 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[26-Feb-2022 19:03:39 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[26-Feb-2022 19:03:39 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[26-Feb-2022 20:13:54 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[26-Feb-2022 20:13:54 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[26-Feb-2022 21:46:58 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[26-Feb-2022 21:46:58 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[26-Feb-2022 21:47:19 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[26-Feb-2022 21:47:19 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[26-Feb-2022 23:44:39 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[26-Feb-2022 23:44:39 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 00:56:39 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 00:56:39 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 00:56:52 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 00:56:52 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 04:49:21 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 04:49:21 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 04:49:30 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 04:49:30 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 04:49:36 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 04:49:36 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 04:49:43 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 04:49:43 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 06:47:52 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 06:47:52 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:04:08 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:04:08 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:04:35 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:04:35 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:05:01 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:05:01 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:05:26 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:05:26 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:05:51 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:05:51 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:06:16 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:06:16 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:06:42 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:06:42 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:07:07 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:07:07 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:07:32 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:07:32 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:07:57 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:07:57 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:08:22 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:08:22 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:08:47 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:08:47 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:09:11 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:09:11 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:09:36 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:09:36 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:10:02 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:10:02 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:10:26 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:10:26 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:10:51 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:10:51 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:11:16 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:11:16 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:11:41 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:11:41 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:12:06 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:12:06 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:12:30 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:12:30 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:12:55 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:12:55 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:13:20 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:13:20 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:13:45 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:13:45 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:14:10 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:14:10 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:14:35 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:14:35 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:15:00 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:15:00 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:15:25 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:15:25 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:15:28 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:15:28 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:15:50 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:15:50 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:16:15 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:16:15 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:26:17 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:26:17 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:38:49 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:38:49 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:38:55 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:38:55 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:39:01 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:39:01 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:39:06 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:39:06 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:39:13 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:39:13 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:39:20 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:39:20 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:39:26 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:39:26 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:39:34 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:39:34 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:39:39 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:39:39 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:39:48 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:39:48 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:40:05 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:40:05 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:40:12 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:40:12 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:40:18 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:40:18 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:40:29 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:40:29 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:40:34 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:40:34 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:40:40 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:40:40 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:40:47 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:40:47 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:40:53 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:40:53 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:40:58 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:40:58 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:41:10 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:41:10 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:41:16 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:41:16 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:41:23 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:41:23 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:41:29 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:41:29 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:41:35 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:41:35 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:41:40 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:41:40 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:41:47 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:41:47 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:41:54 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:41:54 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:42:01 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:42:01 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:42:06 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:42:06 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:42:12 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:42:12 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:42:24 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:42:24 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:42:30 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:42:30 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:42:36 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:42:36 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:42:41 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:42:41 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:42:48 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:42:48 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:42:53 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:42:53 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:43:00 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:43:00 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 07:43:05 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 07:43:05 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 08:01:02 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 08:01:02 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 08:03:47 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 08:03:47 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 08:10:24 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 08:10:24 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 08:10:31 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 08:10:31 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 08:10:42 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 08:10:42 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 08:35:08 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 08:35:08 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 09:00:12 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 09:00:12 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 09:00:23 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 09:00:23 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 09:07:48 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 09:07:48 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 09:48:27 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 09:48:27 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 11:52:17 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 11:52:17 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 13:06:00 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 13:06:00 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 13:06:03 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 13:06:03 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 13:06:04 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 13:06:04 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 13:06:09 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 13:06:09 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 13:06:45 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 13:06:45 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 13:06:45 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 13:06:45 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 13:07:34 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 13:07:34 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 13:07:52 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 13:07:52 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 13:08:41 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 13:08:41 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 13:08:51 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 13:08:51 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 13:10:36 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 13:10:36 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 13:10:50 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 13:10:50 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 13:10:55 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 13:10:55 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 13:44:40 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 13:44:40 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 14:42:11 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 14:42:11 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 16:04:14 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 16:04:14 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 17:34:50 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 17:34:50 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 18:32:24 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 18:32:24 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 19:56:54 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 19:56:54 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 19:57:08 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 19:57:08 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 19:57:12 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 19:57:12 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 20:13:41 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 20:13:41 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[27-Feb-2022 20:32:14 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/wheelsne/entiretimes.com/demos/school/vendor/psr/log/src/LoggerInterface.php on line 30
+[27-Feb-2022 20:32:14 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[09-Apr-2022 19:41:26 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/jnanaprabha/public_html/beta/vendor/psr/log/src/LoggerInterface.php on line 30
+[09-Apr-2022 19:41:26 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[09-Apr-2022 19:42:00 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 19:42:02 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 19:42:03 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 19:42:04 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 19:42:05 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 19:42:05 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 19:43:01 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 19:43:01 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 19:43:15 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 19:43:16 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 19:43:19 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 19:46:26 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/jnanaprabha/public_html/vendor/psr/log/src/LoggerInterface.php on line 30
+[09-Apr-2022 19:46:26 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[09-Apr-2022 19:47:06 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 20:00:53 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 20:31:23 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 21:00:54 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 21:21:46 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 21:23:37 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 21:23:45 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 21:31:22 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 22:01:00 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 22:09:46 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 22:10:25 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 22:12:10 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 22:12:47 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 22:27:19 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 22:27:22 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 22:27:31 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 22:32:13 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 22:33:14 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 22:33:22 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 22:33:23 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 22:33:28 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 22:39:48 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 22:51:07 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 22:51:11 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 22:51:17 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 22:51:17 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:01:05 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:15:25 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:20:23 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:20:31 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:20:53 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:20:54 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:21:10 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:21:18 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:21:30 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:21:44 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:22:29 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:22:52 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:22:53 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:22:53 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:23:00 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:23:19 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:23:29 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:23:33 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:23:37 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:23:38 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:24:51 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:25:51 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:25:54 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:25:55 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:25:55 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:25:57 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:25:58 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:25:58 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:26:25 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:27:31 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:27:32 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:27:32 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:28:16 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:28:16 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:28:27 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:28:34 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:28:44 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:28:48 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:28:53 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:28:56 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:28:57 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:29:02 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:29:03 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:29:04 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:29:04 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:29:04 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:29:04 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:29:05 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:29:05 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:31:24 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:53:44 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:53:46 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:53:48 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:53:48 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:53:49 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:59:02 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:59:06 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:59:07 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:59:09 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:59:10 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:59:19 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:59:29 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:59:30 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[09-Apr-2022 23:59:31 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 00:00:09 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 00:00:10 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 00:00:17 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 00:00:17 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 00:00:17 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 00:00:17 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 00:01:05 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 00:01:44 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 00:01:45 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 00:01:47 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 00:01:48 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 00:02:03 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 00:02:04 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 00:02:06 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 00:02:08 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 00:02:10 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 00:02:11 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 00:02:18 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 00:02:28 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 00:02:32 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 00:02:33 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 00:02:34 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 00:02:40 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 00:02:42 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 00:11:22 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 00:11:22 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 00:11:23 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 00:11:41 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 00:11:44 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 00:11:45 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 00:13:08 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 00:13:16 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 00:13:16 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 00:13:17 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 00:13:17 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 00:14:15 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 00:14:16 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 00:14:16 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 00:14:17 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 00:14:17 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 00:14:34 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 00:14:36 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 00:14:39 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 00:14:44 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 00:14:54 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 00:15:03 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 00:15:04 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 00:15:06 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 00:17:37 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 00:17:38 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 00:17:40 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 00:17:41 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 00:17:46 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 00:17:47 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 00:17:48 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 00:31:30 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 01:01:01 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 01:27:03 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 01:31:22 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 02:01:00 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 02:31:26 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 03:01:00 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 03:17:39 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 03:31:26 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 04:01:02 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 04:31:26 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 05:00:54 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 05:31:19 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 06:00:59 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 06:31:27 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 07:00:56 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
+[10-Apr-2022 07:31:24 UTC] PHP Warning:  Missing arginfo for clos_ssa_test() in Unknown on line 0
