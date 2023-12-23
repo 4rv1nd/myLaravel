@@ -52,41 +52,12 @@
     <link href="https://fonts.googleapis.com/css?family=Teko:300,400,500,600,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap" rel="stylesheet">
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
     <script type="text/javascript">
         var base_url = "{!!url('/')!!}"
     </script>
-    <style>
-        .custom-logo {
-            width: 8rem;
-            position: absolute;
-        }
-        body::-webkit-scrollbar {
-            display: none;
-        }
-        body {
-            -ms-overflow-style: none;
-            scrollbar-width: none;
-        }
-        @media only screen and (max-width: 991px) {
-            .is-fixed .navbar-toggler {
-                margin-bottom: 14px;
-            }
-            .header-style-1 .header-nav-request {
-                position: relative;
-                left: 50%;
-            }
-        }
-        .extra-logo{
-            height: 0px;
-        }
-        /* .sticky-wrapper {
-            height: 65px !important;
-        } */
-        span[aria-current="page"] > span{
-            background: blueviolet !important;
-            color: white !important;
-        }
-    </style>
     @stack('css')
 </head>
 <body>
@@ -111,7 +82,6 @@
                             <div class="col-lg-8 col-md-8">
                                 <form class="cons-contact-form" method="post" action="{{route('contact.request')}}">
                                     @csrf
-                                    <!-- TITLE START -->
                                     <div class="section-head left wt-small-separator-outer">
                                         <div class="wt-small-separator site-text-primary">
                                             <div class="sep-leaf-left"></div>
@@ -120,32 +90,46 @@
                                         </div>
                                         <h2 data-title="">Get In Touch</h2>
                                     </div>
-                                    <!-- TITLE END -->
                                     <div class="row">
                                         <div class="form-group col-lg-6 col-md-6">
-                                            <input name="name" type="text" required class="form-control" placeholder="Name*">
+                                            <input name="name" type="text" class="form-control" placeholder="Name*">
+                                            <small data-name></small>
                                         </div>
                                         <div class="form-group col-sm-6 col-md-6 col-lg-6">
-                                            <input type="text" class="form-control" id="company" name="company" required placeholder="Company: *">
+                                            <input type="text" class="form-control" id="company" name="company" placeholder="Company: *">
+                                            <small data-company></small>
                                         </div>
                                         <div class="form-group col-lg-6 col-md-6">
-                                            <input name="email" type="text" class="form-control" required placeholder="Email*">                                            
+                                            <input name="email" type="text" class="form-control" placeholder="Email*">                                            
+                                            <small data-email></small>
                                         </div>
                                         <div class="form-group col-lg-6 col-md-6">
-                                            <input name="phone" type="text" class="form-control" required placeholder="Phone*">
+                                            <input name="phone" type="text" class="form-control" placeholder="Phone*">
+                                            <small data-phone></small>
                                         </div>
                                         <div class="form-group col-lg-12 col-md-12">
-                                            <input name="subject" type="text" class="form-control" required placeholder="Subject*">
+                                            <input name="subject" type="text" class="form-control" placeholder="Subject*">
+                                            <small data-subject></small>
                                         </div>
                                         <div class="form-group col-sm-12 col-md-12 col-lg-12">
-                                            <textarea class="form-control" rows="3" id="address" name="address" required placeholder="Address: *"></textarea>
+                                            <textarea class="form-control" rows="3" id="address" name="address" placeholder="Address: *"></textarea>
+                                            <small data-address></small>
                                         </div>
                                        
                                         <div class="form-group col-lg-12 col-md-12">
                                             <textarea name="message" class="form-control" rows="3" placeholder="Message*"></textarea>
+                                            <small data-message></small>
                                         </div>
+
                                         <div class="col-md-12">
-                                            <button type="submit" class="site-button site-btn-effect">Submit Now</button>
+                                            <div class="error-areaa"></div>
+                                        </div>
+                                        
+                                        <div class="col-md-12 d-flex">
+                                            <button type="submit" class="site-button site-btn-effect">
+                                                Submit <div class="d-none spinner-border text-light spinner-border-sm" role="status"></div>
+                                            </button>
+                                            <div class="g-recaptcha ml-5" data-sitekey="6Lc1YBEpAAAAAMTVF-79SdCRRila1Gn-FpuVmG2M"></div>
                                         </div>
                                     </div>
                                 </form>

@@ -41,11 +41,9 @@
                 <div class="contact-one">
                     <!-- CONTACT FORM-->
                     <div class="row  d-flex justify-content-center flex-wrap">
-
                         <div class="col-lg-6 col-md-6 m-b30">
                             <form class="cons-contact-form" method="post" action="{{route('contact.post')}}">
                                 @csrf
-                                <!-- TITLE START -->
                                 <div class="section-head left wt-small-separator-outer">
                                     <div class="wt-small-separator site-text-primary">
                                         <div class="sep-leaf-left"></div>
@@ -54,47 +52,58 @@
                                     </div>
                                     <h2>Get In Touch</h2>
                                 </div>
-                                <!-- TITLE END -->
-
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6">
                                         <div class="form-group">
-                                            <input name="first_name" type="text" required class="form-control" placeholder="First Name*">
+                                            <input name="first_name" type="text"  class="form-control" placeholder="First Name*">
+                                            <small data-first_name></small>
                                         </div>
+
                                     </div>
 
                                     <div class="col-lg-6 col-md-6">
                                         <div class="form-group">
-                                            <input name="last_name" type="text" required class="form-control" placeholder="Last Name">
+                                            <input name="last_name" type="text"  class="form-control" placeholder="Last Name">
+                                            <small data-last_name></small>
                                         </div>
                                     </div>
 
                                     <div class="col-lg-12 col-md-12">
                                         <div class="form-group">
-                                            <input name="email" type="text" class="form-control" required placeholder="Email*">
+                                            <input name="email" type="text" class="form-control"  placeholder="Email*">
+                                            <small data-email></small>
                                         </div>
                                     </div>
 
                                     <div class="col-lg-12 col-md-12">
                                         <div class="form-group">
-                                            <input name="phone" type="text" class="form-control" required placeholder="Phone*">
+                                            <input name="phone" type="text" class="form-control"  placeholder="Phone*">
+                                            <small data-phone></small>
                                         </div>
                                     </div>
 
                                     <div class="col-lg-12 col-md-12">
                                         <div class="form-group">
-                                            <input name="subject" type="text" class="form-control" required placeholder="Subject*">
+                                            <input name="subject" type="text" class="form-control"  placeholder="Subject*">
+                                            <small data-subject></small>
                                         </div>
                                     </div>
 
                                     <div class="col-md-12">
                                         <div class="form-group">
                                             <textarea name="message" class="form-control" rows="4" placeholder="Message*"></textarea>
+                                            <small data-message></small>
                                         </div>
                                     </div>
-
                                     <div class="col-md-12">
-                                        <button type="submit" class="site-button site-btn-effect">Submit Now</button>
+                                        <div class="error-areaa"></div>
+                                    </div>
+                                    
+                                    <div class="col-md-12 d-flex">
+                                        <button type="submit" class="site-button site-btn-effect">
+                                            Submit <div class="d-none spinner-border text-light spinner-border-sm" role="status"></div>
+                                        </button>
+                                        <div class="g-recaptcha ml-5" data-sitekey="6Lc1YBEpAAAAAMTVF-79SdCRRila1Gn-FpuVmG2M"></div>
                                     </div>
                                 </div>
                             </form>

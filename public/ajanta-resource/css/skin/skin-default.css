@@ -205,3 +205,40 @@ background: linear-gradient(0deg, rgba(255,94,21,1) 0%, rgba(0,23,60,1) 100%);
 		font-size: 3rem !important;
 	}
 }
+
+.custom-logo {
+	width: 8rem;
+	position: absolute;
+}
+body::-webkit-scrollbar {
+	display: none;
+}
+body {
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+@media only screen and (max-width: 991px) {
+	.is-fixed .navbar-toggler {
+		margin-bottom: 14px;
+	}
+	.header-style-1 .header-nav-request {
+		position: relative;
+		left: 50%;
+	}
+}
+.extra-logo{
+	height: 0px;
+}
+/* .sticky-wrapper {
+	height: 65px !important;
+} */
+span[aria-current="page"] > span{
+	background: blueviolet !important;
+	color: white !important;
+}
+.icon-md img {
+	height: unset;
+}
+.form-group > small{
+	color: red;
+}

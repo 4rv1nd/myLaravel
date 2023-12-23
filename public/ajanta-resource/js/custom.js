@@ -1400,39 +1400,74 @@ $.fn.owlFilter = function(data, callback) {
 ===========================*/
 
 	// > Contact form function by = custom.js	
-	jQuery(document).on('submit', 'form.cons-contact-form', function(e){
-		e.preventDefault();
-		var form = jQuery(this);
-		jQuery.ajax({
-			url: e.target.getAttribute('action'),
-			data: form.serialize(),
-			type: 'POST',
-			beforeSend: function() {
-				jQuery('.loading-area').show();
-			},
-			success:function(data){
-				jQuery('.loading-area').hide();
-				data = JSON.parse(data);
-				if(data['success']){
-					jQuery("<div class='alert alert-success'>"+data['message']+"</div>").insertBefore('form.cons-contact-form');
-				}else{
-					jQuery("<div class='alert alert-danger'>"+data['message']+"</div>").insertBefore('form.cons-contact-form');	
+	// jQuery(document).on('submit', 'form.cons-contact-form', function(e){
+	// 	e.preventDefault();
+	// 	console.log("TTTTT");
+
+	// 	var form = jQuery(this);
+	// 	jQuery.ajax({
+	// 		url: e.target.getAttribute('action'),
+	// 		data: form.serialize(),
+	// 		type: 'POST',
+	// 		beforeSend: function() {
+	// 			jQuery('.loading-area').show();
+	// 		},
+	// 		success:function(data){
+	// 			jQuery('.loading-area').hide();
+	// 			data = JSON.parse(data);
+	// 			if(data['success']){
+	// 				jQuery("<div class='alert alert-success'>"+data['message']+"</div>").insertBefore('form.cons-contact-form');
+	// 			}else{
+	// 				jQuery("<div class='alert alert-danger'>"+data['message']+"</div>").insertBefore('form.cons-contact-form');	
+	// 			}
+	// 		}
+	// 	});
+	// 	jQuery('.cons-contact-form').trigger("reset");
+	// 	return false;
+	// });
+
+	document.querySelectorAll('.cons-contact-form').forEach((my_form)=>{
+		my_form.addEventListener('submit', function(e){
+			e.preventDefault(); 
+			e.target.querySelectorAll("small").forEach( (elll) => {
+				elll.innerText = "";
+			})
+			e.target.querySelector('.spinner-border').classList.remove('d-none');
+			
+			$.ajax({
+				url: e.currentTarget.getAttribute('action'),
+				data: $(e.currentTarget).serialize(),
+				type: e.currentTarget.getAttribute('method'),
+				// headers: {
+				// 	'X-CSRF-Token': '{{ csrf_token() }}',
+				// },
+				success: function(data){
+					grecaptcha.reset(0);
+					e.target.querySelector('.spinner-border').classList.add('d-none');
+					if(data.success){
+						jQuery("<div class='alert alert-success'>"+data.message+"</div>").insertBefore('.error-areaa');
+					}
+					else{
+						jQuery("<div class='alert alert-danger'>"+data.message+"</div>").insertBefore('.error-areaa');
+					}
+				}, 
+				error: function(data){
+					e.target.querySelector('.spinner-border').classList.add('d-none');
+					grecaptcha.reset(0);
+					for(let key in data.responseJSON){
+						e.target.querySelector("small[data-"+key+"]").innerText = data.responseJSON[key];
+					}
 				}
-			}
-		});
-		jQuery('.cons-contact-form').trigger("reset");
-		return false;
-	});
-	
-	
-		
+			});
+		})
+	});	
 
 /*===========================
 	Document on  Submit FUNCTION END
 ===========================*/	
 
 
-	
+
 	
 	
 })(window.jQuery);

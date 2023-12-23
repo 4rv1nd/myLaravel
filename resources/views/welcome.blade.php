@@ -35,12 +35,6 @@
             margin-bottom: 60px;
         }
 
-        
-        
-        .icon-md img {
-            height: unset;
-        }
-
         .video-counter-section {
             margin-bottom: 0px;
         }

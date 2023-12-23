@@ -12,11 +12,22 @@
           <th scope="row" align="left">Email Address</th>
           <td>{{$data->email_address}}</td>
         </tr>
-
+        <?php if($data->company!=null): ?>
+        <tr>
+          <th scope="row" align="left">Company Name</th>
+          <td>{{$data->company}}</td>
+        </tr>
+        <?php endif; ?>
         <tr>
           <th scope="row" align="left">Phone Number</th>
           <td>{{$data->phone_number}}</td>
         </tr>
+        <?php if($data->address!=null): ?>
+        <tr>
+          <th scope="row" align="left">Address</th>
+          <td>{{$data->address}}</td>
+        </tr>
+        <?php endif; ?>
         <tr>
           <th scope="row" align="left">Subject</th>
           <td>{{$data->subject}}</td>

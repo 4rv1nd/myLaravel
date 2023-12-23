@@ -32,7 +32,7 @@ class Contactus extends Mailable
         $website_data = (Object) get_widget_data('title', 'General Settings', 'title', 'Social Links');
         return $this->to($this->data->email_address,$this->data->first_name.' '.$this->data->last_name)
             ->subject('Contact Us Request | '.str_replace("_"," ",ucfirst($website_data->website_name)))
-            ->bcc('hodumarketingsolutions@gmail.com','HODU Marketing Solutions Pvt. Ltd.')
+            // ->bcc('hodumarketingsolutions@gmail.com','HODU Marketing Solutions Pvt. Ltd.')
             ->view('email_temps.contactus')
             ->with('data',$this->data); 
     }

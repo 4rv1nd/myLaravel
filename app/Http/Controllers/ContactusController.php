@@ -10,6 +10,7 @@ use App\Models\Modules;
 use App\Models\ModulesData;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Request as FacadesRequest;
+use Illuminate\Support\Facades\Validator;
 use stdClass;
 
 class ContactusController extends Controller
@@ -31,20 +32,52 @@ class ContactusController extends Controller
     }
 
     public function store(Request $request){
+        $validator = Validator::make($request->toArray(), [
+                'first_name' => 'required',
+                'email' => 'required',
+                'phone' => 'required',
+                'message' => 'required',
+                'subject' => 'required',
+            ], 
+            $messages = [
+                'first_name.required' => 'First Name is required.',
+                'email.required' => 'Email Address is required.',
+                'phone.required' => 'Phone Number is required.',
+                'message.required' => 'Message is required.',
+                'subject.required' => 'Subject is required.',
+            ]
+        );
+
+        if($validator->fails()){
+            return response($validator->messages(), 406);
+        } 
         
-        $this->validate($request, [
-            'first_name' => 'required',
-            'email' => 'required',
-            'phone' => 'required',
-            'message' => 'required',
-            'subject' => 'required',
-        ], [
-            'first_name.required' => 'First Name is required.',
-            'email_address.required' => 'Email Address is required.',
-            'phone_number.required' => 'Phone Number is required.',
-            'message.required' => 'Message is required.',
-            'subject.required' => 'Subject is required.',
-        ]);
+        $secretKey = "6Lc1YBEpAAAAAGOQQ7BWrXqQKeaVp5YuZNMVPirj"; 
+
+        $response = $_POST['g-recaptcha-response'];
+
+        $post_data = http_build_query(
+            array(
+                'secret' => $secretKey,
+                'response' => $response
+            )
+        );
+
+        $opts = array('http' =>
+            array(
+                'method'  => 'POST',
+                'header'  => 'Content-type: application/x-www-form-urlencoded',
+                'content' => $post_data
+            )
+        );
+        $context  = stream_context_create($opts);
+        $response = file_get_contents('https://www.google.com/recaptcha/api/siteverify', false, $context);
+
+        $result = json_decode($response);
+        
+        if (!$result->success) {
+            return ['success'=>'0','message'=>'Please Fill the Recaptcha'];
+        }
 
         $contact = new Contact_us();
         $contact->first_name = $request->first_name;
@@ -56,7 +89,8 @@ class ContactusController extends Controller
 
         $contact->subject = $request->subject;
         Mail::send(new Contactus($contact));
-        echo json_encode(['success'=>'1','message'=>'Your form is successfully submitted']); exit;
+        
+        return ['success'=>'1','message'=>'Your form is successfully submitted'];
         
         // $request->session()->flash('message.added', 'success');
         // $request->session()->flash('message.content', 'Your form is successfully submitted');
@@ -64,23 +98,56 @@ class ContactusController extends Controller
     }  
     public function request(Request $request){
         
-        $this->validate($request, [
-            'subject'=>'required',
-            'name'=>'required',
-            'company'=>'required',
-            'email'=>'required',
-            'phone'=>'required',
-            'address'=>'required',
-            'message'=>'required'
-        ], [
-            'subject.required'=>'Subject is Required',
-            'name.required'=>'Name is Required',
-            'company.required'=>'Company is Required',
-            'email.required'=>'Email is Required',
-            'phone.required'=>'Phone is Required',
-            'address.required'=>'Address is Required',
-            'message.required'=>'Message is Required'
-        ]);
+        $secretKey = "6Lc1YBEpAAAAAGOQQ7BWrXqQKeaVp5YuZNMVPirj"; 
+
+        $response = $_POST['g-recaptcha-response'];
+
+        $post_data = http_build_query(
+            array(
+                'secret' => $secretKey,
+                'response' => $response
+            )
+        );
+
+        $opts = array('http' =>
+            array(
+                'method'  => 'POST',
+                'header'  => 'Content-type: application/x-www-form-urlencoded',
+                'content' => $post_data
+            )
+        );
+        $context  = stream_context_create($opts);
+        $response = file_get_contents('https://www.google.com/recaptcha/api/siteverify', false, $context);
+
+        $result = json_decode($response);
+        
+        if (!$result->success) {
+            return ['success'=>'0','message'=>'Please Fill the Recaptcha'];
+        }
+
+        $validator = Validator::make($request->toArray(), [
+                'subject'=>'required',
+                'name'=>'required',
+                'company'=>'required',
+                'email'=>'required',
+                'phone'=>'required',
+                'address'=>'required',
+                'message'=>'required'
+            ], 
+            $messages = [
+                'subject.required'=>'Subject is Required',
+                'name.required'=>'Name is Required',
+                'company.required'=>'Company is Required',
+                'email.required'=>'Email is Required',
+                'phone.required'=>'Phone is Required',
+                'address.required'=>'Address is Required',
+                'message.required'=>'Message is Required'
+            ]
+        );
+
+        if($validator->fails()){
+            return response($validator->messages(), 406);
+        } 
 
         $contact = new Contact_us();
         $contact->first_name = $request->name;
@@ -94,6 +161,7 @@ class ContactusController extends Controller
 
         $contact->subject = $request->subject;
         Mail::send(new Contactus($contact));
-        echo json_encode(['success'=>'1','message'=>'Your form is successfully submitted']); exit;
+
+        return ['success'=>'1','message'=>'Your form is successfully submitted'];
     }  
 }
