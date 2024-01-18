@@ -9,9 +9,12 @@ class VerifyCsrfToken extends Middleware
     /**
      * The URIs that should be excluded from CSRF verification.
      *
-     * @var array<int, string>
+     * @var array
      */
     protected $except = [
-        //
+        'ajax_upload_file',
+        'ajax_remove_file',
+        'tinymce-image_upload-front',
+        'submit-informations',
     ];
 }

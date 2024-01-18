@@ -1,16 +1,20 @@
 <?php
 
-use App\Http\Controllers\DatabaseController;
-use App\Http\Controllers\NewPostController;
-use App\Http\Controllers\UserController;
-use App\Http\Controllers\PostController;
-use App\Models\Post;
-use App\Models\Role;
-use App\Models\User;
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Route;
-use Illuminate\Support\Facades\Session;
+use App\Http\Controllers\CKEditorController;
+use App\Http\Controllers\TinyMceController;
+use App\Http\Controllers\FilerController;
+use App\Http\Controllers\ClassesController;
+use App\Http\Controllers\TeachersController;
+use App\Http\Controllers\BlogsController;
+use App\Http\Controllers\ContactusController;
+use App\Http\Controllers\NewsLetterController;
+use App\Http\Controllers\CmsController;
+use App\Http\Controllers\TestimonialsController;
+use App\Http\Controllers\JobsController;
+use App\Http\Controllers\SeekersController;
+use App\Http\Controllers\WebsiteController;
+use Illuminate\Support\Facades\Artisan;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,278 +22,113 @@ use Illuminate\Support\Facades\Session;
 |--------------------------------------------------------------------------
 |
 | Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider and all of them will
-| be assigned to the "web" middleware group. Make something great!
+| routes are loaded by the RouteServiceProvider within a group which
+| contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/clear', function () {
-    Artisan::call('optimize:clear');
 
-    // Artisan::call('cache:clear');
-    // Artisan::call('view:clear');
-    // Artisan::call('route:clear');
+// middleware(['first', 'second'])->
+// name('ajanta.')->
+// prefix('admin')->
+// controller(OrderController::class)->
 
-    // Artisan::call('route:cache');
-    // Artisan::call('config:cache');
-    return back();
-})->name('clear');
-
-Route::view('/','welcome');
-// Route::get('/', function () {
-//     return view('welcome');
+// Route::prefix('ajanta')->name('ajanta.')->group(function () {
+//   Route::get('/', function () {
+//     return view('ajanta.home');
+//   });
 // });
 
-Route::get('/docs/users', function () {
-    return "User List";
+
+Route::get('/',[WebsiteController::class, 'index'])->name('home');
+
+Route::get('sitemap', [WebsiteController::class, 'sitemap'])->name('sitemap');
+
+Route::post('ckeditor/upload',[CKEditorController::class, 'upload'])->name('ckeditor.image-upload');
+
+Route::post('ckeditor/upload',[CKEditorController::class, 'upload'])->name('ckeditor.image-upload');
+
+Route::post('profile/upload',[CKEditorController::class, 'profile'])->name('profile.image-upload');
+
+Route::post('tinymce-image_upload-front',[TinyMceController::class, 'uploadImage'])->name('tinymce.image_upload.front');
+
+
+Route::post('ajax_upload_file',[FilerController::class, 'upload'])->name('filer.image-upload');
+Route::post('ajax_remove_file',[FilerController::class, 'fileDestroy'])->name('filer.image-remove');
+
+/*Jobs Start*/
+
+Route::get('jobs',[JobsController::class, 'index'])->name('jobs.list');
+Route::get('job/{slug}',[JobsController::class, 'detail'])->name('jobs.detail');
+
+Route::get('testimonials',[TestimonialsController::class, 'index'])->name('testimonials.list');
+
+/*End Jobs*/
+
+/*Classes Start*/
+
+Route::get('classes',[ClassesController::class, 'index'])->name('classes.list');
+Route::get('class/{slug}',[ClassesController::class, 'detail'])->name('classes.detail');
+
+Route::get('testimonials',[TestimonialsController::class, 'index'])->name('testimonials.list');
+
+/*End Classes*/
+
+/*Teachers Start*/
+Route::get('teachers',[TeachersController::class, 'index'])->name('teachers.list');
+Route::get('teacher/{slug}',[TeachersController::class, 'detail'])->name('teachers.detail');
+/*End Teachers*/
+
+Route::get('update-professional-informations',[SeekersController::class, 'show'])->name('seeker.update');
+Route::post('update-professional-informations',[SeekersController::class, 'store'])->name('seeker.update.informations');
+Route::get('apply-now/{id}',[SeekersController::class, 'apply'])->name('seeker.apply-now');
+Route::get('appllied-jobs',[SeekersController::class, 'applliedJobs'])->name('seeker.appllied-jobs');
+Route::get('download-resume/{id}',[SeekersController::class, 'seeker'])->name('seeker.download-resume');
+
+
+/*Blogs Start*/
+Route::get('blogs',[BlogsController::class, 'index'])->name('blogs.list');
+Route::get('blogs/categories/{modules_data:slug}',[BlogsController::class, 'category'])->name('blogs.cat.blogs');
+Route::get('blogs/tags/{tags:slug}',[BlogsController::class, 'tag'])->name('blogs.tag.blogs');
+Route::get('blogs/archives/{date}',[BlogsController::class, 'archives'])->name('blogs.archives.blogs');
+Route::post('blogs/search',[BlogsController::class, 'search'])->name('blogs.search.blogs');
+Route::get('blogs/{modules_data:slug}',[BlogsController::class, 'detail'])->name('blogs.detail');
+/*End Blogs*/
+
+/*Contact Us Start*/
+Route::get('contact-us',[ContactusController::class, 'index'])->name('contact.index');
+Route::post('contact-us',[ContactusController::class, 'store'])->name('contact.post');
+Route::post('make-request',[ContactusController::class, 'request'])->name('contact.request');
+/*Contact Us End*/
+
+// Our products Start
+Route::get('products',[WebsiteController::class, 'products'])->name('products');
+Route::get('products/{modulesdata:slug}',[WebsiteController::class, 'products_details'])->name('product.details');
+// Our products End
+
+
+Route::post('news-letter',[NewsLetterController::class, 'store'])->name('newsletter.post');
+
+Route::get('/clear-cache', function () {
+
+  $exitCode = Artisan::call('config:clear');
+
+  $exitCode = Artisan::call('cache:clear');
+
+  $exitCode = Artisan::call('config:cache');
+
+  return 'DONE'; //Return anything
+
 });
-Route::get('/docs/user/{id}', function (String $id) {
-    return "User ".$id;
+Route::get('/webdown', function () {
+  $key = '1630542a-246b-4b66-afa1-dd72a4c43515';
+  // $key = '258dfg-245gry-25fgry-6957wer-125485dfgyhf';
+  Artisan::call('down',['--secret'=>$key,'--render'=>'maintanance']);
+  // https://example.com/$key
 });
-Route::get('/docs/post/{id}/comment/{comment}',function(String $id, String $comment){
-    return "Post id: ".$id." Comment id:".$comment;
-});
-Route::get('/docs/req/{id}',function(Request $req, string $id){
-    return "Request ".$id;
-});
-Route::get('/docs/optional/{id?}',function(string $id="0123456789"){
-    return "Option ".$id;
-});
+/*End Contact Us*/
 
+Route::get('/import',[CmsController::class, 'import'])->name('cms.import');
+Route::get('/filter-states',[CmsController::class, 'filterStates'])->name('filter-states');
+Route::get('/filter-cities',[CmsController::class, 'filterCities'])->name('filter-cities');
+Route::get('/{slug?}',[CmsController::class, 'index'])->name('cms.page');
 
-Route::get('/docs/welcome', function () {
-    return view('welcome1');
-});
-
-Route::get('/greeting',function(){
-    $greeting = "welcome";
-    $name = "test";
-
-    return view('greeting',['greeting'=>$greeting,'name'=>$name]);
-    // return view('greeting',compact('greeting','name'));
-    // return view('greeting')->with('greeting',$greeting);
-});
-
-Route::get('/profilePage',function(){
-    return view('profile.page');
-});
-
-Route::get('/test',function(){
-    return view('test');
-});
-
-Route::get('/test1',function(){
-    return view('test1');
-});
-
-Route::get('/user',function(){
-    return view('user');
-});
-
-// URL vs Route
-Route::get('routeTest1',function(){
-    return "routeTest 1";
-});
-Route::get('routeTest2',function(){
-    return "routeTest 2";
-})->name('routeTest.route');
-
-Route::get('/users',[UserController::class,'index']);
-Route::get('/users/show/{id}',[UserController::class,'show']);
-
-// Route::resource('posts',PostController::class);
-Route::get('posts',[PostController::class,'index']);
-Route::get('posts/store',[PostController::class,'store']);
-Route::get('/posts/update',[PostController::class,'update']);
-Route::get('/posts/delete',[PostController::class,'destroy']);
-
-// everything in one controller
-Route::resource('newposts',NewPostController::class);
-
-// // old routes
-// Route::get('newposts/file/upload',[NewPostController::class,'fileup'])->name('newposts.fileup');
-// Route::post('newposts/file/save',[NewPostController::class,'filesave'])->name('newposts.filesave');
-// Route::get('newposts/file/delete/{id}',[NewPostController::class,'filedelete'])->name('newposts.filedelete');
-// Route::get('newposts/file/view',[NewPostController::class,'fileview'])->name('newposts.fileview');
-// Route::get('newposts/active/{id}',[NewPostController::class,'active'])->name('newposts.active');
-// Route::get('newposts/publish/{id}',[NewPostController::class,'publish'])->name('newposts.publish');
-// Route::get('newposts/softdelete/{id}',[NewPostController::class,'softdelete'])->name('newposts.softdelete');
-
-// new routes
-Route::controller(NewPostController::class)->group(function(){
-    Route::get('newposts/file/upload','fileup')->name('newposts.fileup');
-    Route::post('newposts/file/save','filesave')->name('newposts.filesave');
-    Route::get('newposts/file/delete/{id}','filedelete')->name('newposts.filedelete');
-    Route::get('newposts/file/view','fileview')->name('newposts.fileview');
-    Route::get('newposts/active/{id}','active')->name('newposts.active');
-    Route::get('newposts/publish/{id}','publish')->name('newposts.publish');
-    Route::get('newposts/softdelete/{id}','softdelete')->name('newposts.softdelete');
-});
-
-//slug
-Route::get('newposts/{post:slug}/slug',[NewPostController::class,'sluggg'])->name('newposts.slug')->withTrashed();
-Route::get('newposts/{post:slug}/slugedit',[NewPostController::class,'slugedit'])->name('newposts.slugedit');
-Route::post('newposts/{post:slug}/slugupdate',[NewPostController::class,'slugupdate'])->name('newposts.slugupdate');
-Route::get('newposts/{post:slug}/slugdelete',[NewPostController::class,'slugdelete'])->name('newposts.slugdelete');
-Route::get('newposts/{post:slug}/slugrecover',[NewPostController::class,'slugrecover'])->name('newposts.slugrecover');
-
-// errorrs
-// first excecute this command 'php artisan vendor:publish'
-// and now enter the no. of in which line have 'error' sentence
-Route::get('errors',[NewPostController::class,'errors'])->name('errors');
-
-// components
-Route::view('component-home','home');
-Route::view('component-about','about');
-
-
-Route::get('get/post/queries',[PostController::class,'getPost'])->name('get.post');
-
-Route::get('queries/friginkey',function(){
-    // if you have only user id of user and you want to get a single post of that user
-    // $data = User::with('post')->first();
-
-    // $data = User::first();
-    // if($data->post){
-    //     echo $data->post->title;
-    // }
-    
-    // if you have user id from post table and you want to get details from user table 
-    // return Post::first()->user;
-    
-    // if you have only user id of user and you want to get a all post of that user
-    // return User::first()->posts;
-
-    // return User::first()->postComment;
-    // return User::first()->postComments;
-    
-    // $uu = User::first();
-    // $pp = Post::first();
-    // return $uu->roles()->attach($pp);
-    // return $uu->roles;
-    // return $uu->roles()->detach($pp);
-
-    $role = Role::first();
-    $user = User::first();
-    $user->roles()->sync($role->id);
-    // $user->roles()->sync(1);
-});
-
-// -----------------------------------------
-// laravel factories
-
-// -----------------------------------------
-
-// session by fassad
-// Route::get('sessionput',function(){
-//     Session::put('testsession','this is test session');
-//     return "new session created";
-// });
-// Route::get('sessionget',function(){
-//     if(Session::has('testsession')){
-//         return Session::get('testsession');
-//     }
-//     else{
-//         return "no session created";
-//     }
-// });
-// Route::get('sessiondelete',function(){
-//     Session::flush();
-//     return "session deleted";
-// });
-// by class (use this for better perfomence)
-Route::get('sessionput',function(Request $request){
-    $request->session()->put('testsession','this is test session');
-    return "new session created";
-});
-Route::get('sessionget',function(Request $request){
-    if($request->session()->has('testsession')){
-        return $request->session()->get('testsession');
-    }
-    else{
-        return "no session";
-    }
-});
-Route::get('sessiontempdelete',function(Request $request){
-    $request->session()->flush();
-    return "session deleted";
-});
-// temporery session
-Route::get('sessiontempput',function(Request $request){
-    $request->session()->flash('testsession','this is test session');
-    return "new session created";
-});
-Route::get('sessiontempget',function(Request $request){
-    if($request->session()->has('testsession')){
-        return $request->session()->get('testsession');
-    }
-    else{
-        return "no session";
-    }
-});
-
-// database
-// Route::get('db/check',[DatabaseController::class,'check']);
-Route::get('db/check',function(){
-    try{
-        DB::connection()->getPdo();
-        echo "Conneted to database.......";
-    }
-    catch(\Exception $ex){
-        echo $ex;
-    }
-});
-
-// Route::get('db/insert',[DatabaseController::class],'insert');
-Route::get('db/insert',function(){
-    Post::create([
-        'title'=>'This is test'    ,
-        'description'=>'This is description',
-        'numbers'=>456543,
-        'is_active'=>false,
-        'is_publish'=>true
-    ]);  
-    return "Record Inserted";
-});
-
-Route::get('db/getAll',function(){
-    $posts = Post::all();
-    return $posts;
-});
-Route::get('db/get/{id}',function($id = 0){
-    // this is mostly used for api's
-    // $post = Post::findOrFail($id);
-
-    $post = Post::find($id);
-    return ($post)?1:0;
-});
-Route::get('db/get/column/{column}/{id}',function($column = "", $id = 0){
-    $post = Post::where([$column=>$id])->get();    
-    return $post;
-});
-
-Route::get('db/update/{id}',function($id=0){
-    $post = Post::find($id);
-
-    // if we have multiple records in result it will give us fris one from result
-    // $post = Post::find($id)->first();
-
-    if(!$post){
-        return "Record not found";
-    }
-    $post->update([
-        'description'=>'this is test dscription with update'
-    ]);
-    return "Record update sucsess";
-});
-
-Route::get('db/delete/{id}',function($id=0){
-    $post = Post::find($id);
-    if(!$post){
-        return "Post Not Found";
-    }
-    else{
-        $post->delete();
-        return "post delete sucsess";
-    }
-    return $post;
-});

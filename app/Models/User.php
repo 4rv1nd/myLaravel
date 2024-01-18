@@ -2,20 +2,19 @@
 
 namespace App\Models;
 
-// use Illuminate\Contracts\Auth\MustVerifyEmail;
+use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
-use Laravel\Sanctum\HasApiTokens;
 
 class User extends Authenticatable
 {
-    use HasApiTokens, HasFactory, Notifiable;
+    use HasFactory, Notifiable;
 
     /**
      * The attributes that are mass assignable.
      *
-     * @var array<int, string>
+     * @var array
      */
     protected $fillable = [
         'name',
@@ -24,9 +23,9 @@ class User extends Authenticatable
     ];
 
     /**
-     * The attributes that should be hidden for serialization.
+     * The attributes that should be hidden for arrays.
      *
-     * @var array<int, string>
+     * @var array
      */
     protected $hidden = [
         'password',
@@ -34,31 +33,11 @@ class User extends Authenticatable
     ];
 
     /**
-     * The attributes that should be cast.
+     * The attributes that should be cast to native types.
      *
-     * @var array<string, string>
+     * @var array
      */
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
-
-    // public function post(){
-    //     // return $this->hasOne(Post::class);
-    //     // return $this->hasOne(Post::class)->where('title','56')->withDefault(['title'=>'laravel Post']);
-    //     return $this->hasOne(Post::class)->withDefault(['title'=>'laravel Post']);
-    // }
-    // public function posts(){
-    //     // return $this->hasMany(Post::class)->where('title','456456');
-    //     return $this->hasMany(Post::class);
-    // }
-    // public function postComment(){
-    //     return $this->hasOneThrough(Comments::class, Post::class);
-    // }
-    // public function postComments(){
-    //     return $this->hasManyThrough(Comments::class, Post::class);
-    // }
-
-    public function roles(){
-        return $this->belongsToMany(Role::class);
-    }
 }
